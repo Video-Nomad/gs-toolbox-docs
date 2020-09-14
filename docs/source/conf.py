@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'gs_toolbox_docs'
+project = 'GS Toolbox'
 copyright = '2020, George Sladkovsky'
 author = 'George Sladkovsky'
 
@@ -31,6 +31,7 @@ release = '1.0'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinxcontrib.video'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
