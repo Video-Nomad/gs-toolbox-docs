@@ -1,0 +1,5 @@
+.. currentmodule:: <index>
+
+#########
+Changelog
+#########

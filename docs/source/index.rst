@@ -13,12 +13,6 @@ Links
 - `YouTube Channel <https://www.youtube.com/GeorgeSladkovsky>`_
 - `ArtStation <https://www.artstation.com/sladkovsky3d>`_
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Table of Contents:
-
-
-
 Supported Platforms
 ^^^^^^^^^^^^^^^^^^^
 
@@ -30,9 +24,8 @@ Supported Platforms
 
 **Maya LT** -> Not Tested and Not Supported.
 
-Indices and tables
-==================
+.. toctree::
+   :maxdepth: 2
+   :caption: Table of Contents:
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   Changelog <changelog>
