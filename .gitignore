@@ -1,0 +1,5 @@
+\_old-docs
+\_build
+\.vscode
+\build
+*.code-workspace
