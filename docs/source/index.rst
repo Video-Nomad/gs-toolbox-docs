@@ -86,6 +86,11 @@ Supported Platforms
     :maxdepth: 2
     :caption: Table of Contents:
 
+    Home <index>
     Changelog <changelog>
     Video Tutorials <video-tutorials>
     Installation <installation>
+    First Steps <first-steps>
+    Constraints and Selection <constraints-and-selection>
+    Selection Groups <selection-groups>
+    Creasing and Beveling <creasing-and-beveling>
