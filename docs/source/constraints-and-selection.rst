@@ -72,7 +72,8 @@ The pattern is based on the last two selected components.
 
 It works on vertices, edges and faces.
 
-**Select Edges**
+Select Edges
+^^^^^^^^^^^^
 
 This button selects edges on the selected meshes based on the Angle slider value.
 
