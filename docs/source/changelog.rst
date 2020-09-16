@@ -7,8 +7,6 @@ Changelog
 Version 1.0.3:
 ^^^^^^^^^^^^^^
 
-Small bugfix update before v1.1 release (SOON™)
-
 **Fixed Bugs:**
 
 - Switching scenes and workspaces will no longer cause the menu to be closed

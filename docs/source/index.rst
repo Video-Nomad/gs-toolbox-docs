@@ -94,3 +94,5 @@ Supported Platforms
     Constraints and Selection <constraints-and-selection>
     Selection Groups <selection-groups>
     Creasing and Beveling <creasing-and-beveling>
+    Mirroring and Instancing <mirroring-and-instancing>
+    Linear and Radial Arrays <linear-and-radial-arrays>

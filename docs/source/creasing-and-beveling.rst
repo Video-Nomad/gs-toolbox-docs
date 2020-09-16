@@ -21,7 +21,7 @@ Creasing and Beveling is a powerful and non-destructive way to create SubD geome
 	:width: 250px
 	:align: center
 
-For example: If you apply a creasing value of 2 to the edge, then this edge will not smooth until you reach a subdivision level of 3 or more. See how the edge is shart up until the level 3?
+For example: If you apply a creasing value of 2 to the edge, then this edge will not be smoothed until you reach a subdivision level of 3 or more. See how the edge is sharp up until the level 3?
 
 By default, Maya has a very convoluted and non-intuitive creasing workflow. You can't crease by angle and there is a separate hidden menu for the creasing controls. Applying creases is a pain as well, as you need to select the creasing tool first and then drag middle mouse button. There is no way easily set a desired creasing value, you can't crease faces etc.
 
@@ -137,8 +137,8 @@ Chamfer toggle will enable and disable rounding of the edges you are beveling.
 
 Default Segments will change the amount of segments that your initial bevel will have (can be always changed during the beveling process).
 
-Additional buttons
-^^^^^^^^^^^^^^^^^^
+SubD Button
+^^^^^^^^^^^
 
 SubD Level button shows you the current Subdivision level of the selected mesh and clicking on this button will apply the SubD level set on the SubD slider.
 
