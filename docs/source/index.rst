@@ -97,3 +97,4 @@ Supported Platforms
     Mirroring and Instancing <mirroring-and-instancing>
     Linear and Radial Arrays <linear-and-radial-arrays>
     Instance and Instance+ <instance-and-instance-plus>
+    Store Edits and Delete Node <store-edits-and-delete-node>
