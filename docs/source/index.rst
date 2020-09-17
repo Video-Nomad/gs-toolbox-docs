@@ -96,3 +96,4 @@ Supported Platforms
     Creasing and Beveling <creasing-and-beveling>
     Mirroring and Instancing <mirroring-and-instancing>
     Linear and Radial Arrays <linear-and-radial-arrays>
+    Instance and Instance+ <instance-and-instance-plus>

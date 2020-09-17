@@ -1,5 +1,7 @@
 .. currentmodule:: <index>
 
+.. _mirroring-and-instancing:
+
 ########################
 Mirroring and Instancing
 ########################
