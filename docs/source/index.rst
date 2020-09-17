@@ -98,3 +98,4 @@ Supported Platforms
     Linear and Radial Arrays <linear-and-radial-arrays>
     Instance and Instance+ <instance-and-instance-plus>
     Store Edits and Delete Node <store-edits-and-delete-node>
+    Snapshots <snapshots>
