@@ -1,6 +1,6 @@
-#############################################
+##########################################
 GS Toolbox for Autodesk Maya Documentation
-#############################################
+##########################################
 
 **For Maya 2017-2020**
 
@@ -99,3 +99,10 @@ Supported Platforms
     Instance and Instance+ <instance-and-instance-plus>
     Store Edits and Delete Node <store-edits-and-delete-node>
     Snapshots <snapshots>
+    Snap to Poly <snap-to-poly>
+    Straighten, Interpolate and Smooth <straighten-interpolate-smooth>
+    Combine, Separate, Duplicate and Extract <combine-separate-etc>
+    Booleans <booleans>
+    Live Plane <live-plane>
+    Quick Materials <quick-materials>
+    Options <options>

@@ -24,6 +24,8 @@ In Maya instancing is quite prominent tool since there are almost no procedural 
 
 GS Toolbox provide with a fast and easy way to use classic instancing (Instance button) and also there is a brand new instance mode available - Instance+.
 
+.. _instance-page:
+
 Instance
 ^^^^^^^^
 
