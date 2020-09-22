@@ -58,6 +58,11 @@ Face selection follows the same rules as the Crease button.
 
 Clicking on SubD button will change the slider to an interactive SubD slider. Dragging this slider will apply different SubD levels to the mesh.
 
+
+
+
+
+
 Interactive Edge Highlight
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -72,6 +77,14 @@ To activate this mode select the object (or multiple objects) and click on a sma
 
 In this mode, dragging the slider will interactively filter the edges based on the selected Angle tolerance.
 
+
+.. note:: Angle between faces has a range from 0 to 180, where 0 is basically all edges highlighted and 180 is no edges being selected. The sharper the edges the higher the angle tolerance needed to highlight this edge. Border edges will always be highlighted due to limitation of the Angle Selection system of Maya.
+
+.. figure:: images/angle_tolerance_slider_example.gif
+	:class: with-shadow align-right
+	:width: 300px
+	:align: center
+
 Note how some of the edges are now different color (this color can be changed in the Options menu). Those colored edges are the edges that will be affected by the next command you choose.
 
 Note how 3 buttons are now highlighted - Select Edges, Crease+ and Bevel+. This means that you can finish the selection process by selecting one of those functions.
@@ -79,6 +92,7 @@ Note how 3 buttons are now highlighted - Select Edges, Crease+ and Bevel+. This 
 Selecting "Select Edges" will finish the interactive mode and select the edges you have highlighted.
 
 .. note:: You don't have to enter the Interactive Angle Highlight mode to use Select Edges, Crease+ and Bevel+. Simply dialing the Angle, SubD and Crs values and clicking on any of those buttons will result in the same selection.
+
 
 Creasing and Beveling by Angle
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

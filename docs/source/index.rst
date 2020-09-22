@@ -101,6 +101,7 @@ Supported Platforms
     Snapshots <snapshots>
     Snap to Poly <snap-to-poly>
     Straighten, Interpolate and Smooth <straighten-interpolate-smooth>
+    Fill with Quads <fill>
     Combine, Separate, Duplicate and Extract <combine-separate-etc>
     Booleans <booleans>
     Live Plane <live-plane>
