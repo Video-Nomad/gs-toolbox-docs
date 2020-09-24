@@ -78,7 +78,7 @@ To activate this mode select the object (or multiple objects) and click on a sma
 In this mode, dragging the slider will interactively filter the edges based on the selected Angle tolerance.
 
 
-.. note:: Angle between faces has a range from 0 to 180, where 0 is basically all edges highlighted and 180 is no edges being selected. The sharper the edges the higher the angle tolerance needed to highlight this edge. Border edges will always be highlighted due to limitation of the Angle Selection system of Maya.
+.. note:: Angle between faces has a range from 0 to 180, where 0 is basically all edges highlighted and 180 is no edges being selected. The sharper the angle between faces the more angle tolerance is needed to deselect this edge. Border edges will always be highlighted due to limitation of the Angle Selection system of Maya.
 
 .. figure:: images/angle_tolerance_slider_example.gif
 	:class: with-shadow align-right
