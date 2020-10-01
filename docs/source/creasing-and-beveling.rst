@@ -58,11 +58,6 @@ Face selection follows the same rules as the Crease button.
 
 Clicking on SubD button will change the slider to an interactive SubD slider. Dragging this slider will apply different SubD levels to the mesh.
 
-
-
-
-
-
 Interactive Edge Highlight
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
