@@ -32,7 +32,7 @@ Two types of arrays are:
 
 .. note:: Linear arrays can also be applied to already existing curves and will follow their path. It is done by selecting the object(s) and the curve before clicking on any axis button.
 
-.. note:: Due to the way **MASH** and **Python** interact in Maya, if you wish to **undo** an array you have to press **Ctrl+Z** not once, but **a few times** until you return back you your **original object (it shout be highlighted)**
+.. note:: Due to the way **MASH** and **Python** interact in Maya, if you wish to **undo** an array you have to press **Ctrl+Z** not once, but **a few times** until you return back you your **original object (it should be highlighted)**
 
 Linear-Uniform Array
 ^^^^^^^^^^^^^^^^^^^^
