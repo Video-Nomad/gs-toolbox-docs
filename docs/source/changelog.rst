@@ -4,7 +4,8 @@
 Changelog
 #########
 
-Version 1.1.1:
+Version 1.1.1
+^^^^^^^^^^^^^
 
 **Fixed Bugs:**
 
@@ -16,8 +17,8 @@ Version 1.1.1:
 
 - (Maya 2017) Fill function will fail if vert selection is near another open border. Fix is to add edge loops to separate this vert from secondary open borders.
 
-Version 1.1 - Major Update:
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Version 1.1 - Major Update
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **New Features:**
 
@@ -61,8 +62,8 @@ Version 1.1 - Major Update:
 - Matching names should no longer cause an error on some functions.
 - Numerous small bugs were fixed during a full rewrite from MEL to Python.
 
-Version 1.0.3:
-^^^^^^^^^^^^^^
+Version 1.0.3
+^^^^^^^^^^^^^
 
 **Fixed Bugs:**
 
@@ -74,8 +75,8 @@ Version 1.0.3:
 - Changed version number format for consistency with my other plug-in(s)
 
 
-Version 1.02/1.021:
-^^^^^^^^^^^^^^^^^^^
+Version 1.02/1.021
+^^^^^^^^^^^^^^^^^^
 
 **Improvements:**
 
