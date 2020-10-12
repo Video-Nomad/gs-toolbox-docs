@@ -4,6 +4,18 @@
 Changelog
 #########
 
+Version 1.1.1:
+
+**Fixed Bugs:**
+
+- Fixed an issue with "presets" folder not being created automatically when deleted
+- (Maya 2017) Initialization issue was fixed
+- (Maya 2017) Some Array bugs fixed
+
+**Known Issues:**
+
+- (Maya 2017) Fill function will fail if vert selection is near another open border. Fix is to add edge loops to separate this vert from secondary open borders.
+
 Version 1.1 - Major Update:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
