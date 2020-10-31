@@ -10,6 +10,7 @@ Version 1.1.1
 **Fixed Bugs:**
 
 - Fixed an issue with "presets" folder not being created automatically when deleted
+- Fixed an issue where not initialized Maya plug-ins caused errors
 - (Maya 2017) Initialization issue was fixed
 - (Maya 2017) Some Array bugs fixed
 

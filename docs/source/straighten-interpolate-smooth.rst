@@ -25,6 +25,9 @@ Straightening an edge is a very simple concept, however even this simple functio
 
 **Straighten button** will straighten the edge selection (or multiple **edge groups**) between their first and last vertex. 
 
+|
+|
+
 .. note:: **Edge groups** are just unconnected edges.
 
 **Selection order does not matter** for **Straighten** function. You can select one **edge group** or multiple **edge groups** and use Straighten function only once to straighten all of them.
