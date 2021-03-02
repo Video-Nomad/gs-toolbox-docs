@@ -107,3 +107,4 @@ Supported Platforms
     Live Plane <live-plane>
     Quick Materials <quick-materials>
     Options <options>
+    Useful Tips <useful-tips>
