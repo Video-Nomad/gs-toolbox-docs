@@ -89,3 +89,5 @@ It also have a marking menu (Hold RMB on this button):
 
 - Select N-Gons will select all the N-gon faces on the selected meshes.
 
+- Select Hard Edges will select only hard edges on the mesh, ignoring Border Edges.
+

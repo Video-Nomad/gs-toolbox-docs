@@ -36,7 +36,7 @@ Installation Steps
 
     .. code-block:: python
 
-        import gs_toolbox.init as tb_init;reload(tb_init);tb_init.Init();
+        import gs_toolbox.init as tb_init;from imp import reload;reload(tb_init);tb_init.Init();
 
 
 #. **Run the code** (Press Enter for the Command Field or press on triangle for script editor). Installation is complete.

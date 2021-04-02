@@ -4,6 +4,28 @@
 Changelog
 #########
 
+Version 1.1.2
+^^^^^^^^^^^^^
+
+**New Features:**
+
+- **Full Maya 2022 and Python 3 Support**! New supported versions are 2017-2022. Maya 2022 is supported in both Python 2 compatibility mode and the default Python 3 mode.
+- Added **Select Hard Edges** command in **Select Edges** button marking menu (Hold RMB)
+
+**Improvements:**
+
+-  Added new hotkeys:
+
+    -  Flip X,Y,Z
+    -  Instance X,Y,Z 
+    -  Flatten Local X,Y,Z
+    -  Flatten World X,Y,Z
+
+**Bug Fixes:**
+
+- Arrays will no longer throw an error if the default MASH settings were changed by the user.
+
+
 Version 1.1.1
 ^^^^^^^^^^^^^
 
@@ -76,8 +98,8 @@ Version 1.0.3
 - Changed version number format for consistency with my other plug-in(s)
 
 
-Version 1.02/1.021
-^^^^^^^^^^^^^^^^^^
+Version 1.02 + 1.021
+^^^^^^^^^^^^^^^^^^^^
 
 **Improvements:**
 
