@@ -43,6 +43,7 @@ In order to automatically start the plug-in during Maya startup you need to modi
 
     def startupCommands():
         import gs_toolbox.main as tb_main
+        from imp import reload
         reload(tb_main)
         tb_main.main()
     mc.evalDeferred(startupCommands,lp=1)
