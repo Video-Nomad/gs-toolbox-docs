@@ -9,7 +9,7 @@ Installation Steps
 
 .. warning:: Only **Windows** version is **fully supported**. **Mac** version is currently in **beta test** and may have some bugs. **Linux** was not tested and currently **not supported**. **Maya LT** was not tested and currently **not supported**.
 
-#. Unpack and copy **gs_curvetools** folder to:
+#. Unpack and copy **gs_toolbox** folder to:
 
 	- **Windows:** Documents/Maya/{Maya_Version}/scripts/
 	- **Mac:** {Your_Mac_Name}/⁨Users⁩/{User_Name}/⁨Library/⁨Preferences⁩/⁨Autodesk⁩/⁨maya/{Maya_Version}/scripts/⁩
