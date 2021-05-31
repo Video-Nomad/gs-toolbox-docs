@@ -4,6 +4,15 @@
 Changelog
 #########
 
+Version 1.1.3
+^^^^^^^^^^^^^
+
+**Bug Fixes:**
+
+- For Maya 2020.4 Only: Deformed arrays will now be created properly
+- Fixed font issue for all versions
+- Fixed some of the hotkeys
+
 Version 1.1.2
 ^^^^^^^^^^^^^
 
