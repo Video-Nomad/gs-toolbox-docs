@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'GS Toolbox'
-copyright = '2020, George Sladkovsky'
+copyright = '2021, George Sladkovsky'
 author = 'George Sladkovsky'
 
 # The full version, including alpha/beta/rc tags
