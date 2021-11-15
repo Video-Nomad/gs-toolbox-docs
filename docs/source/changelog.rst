@@ -4,6 +4,30 @@
 Changelog
 #########
 
+Version 1.1.4
+^^^^^^^^^^^^^
+
+**New Features:**
+
+- Added a Shift modifier for "Apply Boolean" button to keep the boolean group hidden after "Apply" button is pressed
+  
+  - Holding Shift will now result in an old behavior - deletion of the boolean group
+  - Normal click will now result in a boolean group hidden, but not deleted
+
+- Added an option in the options menu to store applied boolean groups in a separate group called "GS_AppliedBooleans"
+
+**Improvements:**
+
+- Added additional hotkeys for some Shift modified commands
+- Modifier and Marking menu icons visuals were improved
+
+**Bug Fixes:**
+
+- Fixed position resetting of the main window after Maya is reloaded
+- Bevel Plus will now work correctly on instanced objects
+- Shift can now be used when setting custom hotkeys
+- Some minor typos and code fixes
+
 Version 1.1.3
 ^^^^^^^^^^^^^
 
@@ -49,8 +73,8 @@ Version 1.1.1
 
 - (Maya 2017) Fill function will fail if vert selection is near another open border. Fix is to add edge loops to separate this vert from secondary open borders.
 
-Version 1.1 - Major Update
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+Version 1.1
+^^^^^^^^^^^
 
 **New Features:**
 

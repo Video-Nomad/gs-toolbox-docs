@@ -108,9 +108,14 @@ Simply select the cutter object (wireframe) and click on Delete Bool Cutter butt
 Applying Booleans
 ^^^^^^^^^^^^^^^^^
 
-If you are satisfied with the boolean object you have created, you can always just duplicate it and hide the original object for possible editing later.
+If you are satisfied with the boolean object you have created, you can simply click on Apply button and it will duplicate the final object and hide the boolean objects. You can then always return to them.
 
-If you don't want anything left behind, simply select the boolean base object and click on Apply Booleans button. This will clean up the scene and leave you with a new geometry you have created.
+If you don't want anything left behind, simply select the boolean base object, hold Shift and click on Apply Booleans button. This will clean up the scene and leave you with a new geometry you have created.
+
+Additional options
+^^^^^^^^^^^^^^^^^^
+
+In the options menu you can choose an option to group together applied booleans. This will result in the same behavior as normal Apply, but it will create a single group in the outliner and store the objects there.
 
 .. _booleans-algorithms-ref:
 
