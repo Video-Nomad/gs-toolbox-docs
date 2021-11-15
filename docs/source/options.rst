@@ -23,7 +23,7 @@ Options menu holds all the options available for the functions of GS Toolbox plu
 - **Multi-Boolean Algorithm** - see :ref:`booleans-algorithms-ref`.
 - **Boolean Wireframe Output** - see :ref:`booleans-algorithms-ref` -> Other Options.
 - **Automatic Boolean Instances Conversion** - see :ref:`booleans-algorithms-ref` -> Other Options.
-- **Store Applied Booleans in a Separate Group** - will store the applied booleans in a separate group in an outliner.
+- **Store Applied Booleans in a Separate Group** - will store the applied booleans in a separate group in an outliner
 - **Enable Additive Creasing** - when checked Crease Plus will not creases on the entire mesh and instead only replace those crease that math the angle tolerance. Disabling will remove all creases from the mesh that does not match the selected angle tolerance.
 - **Crease/UnCrease Only Face Perimeter** - this option will determine whether the Crease function should crease all the edges in the selected face or only the perimeter. This behavior is inverted when holding Shift button.
 - **Too Many Instances and Too Many Edges** - whether to show the warning dialogs when either too many instances are being created or too many edges are being selected for some functions.
