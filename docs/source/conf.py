@@ -18,11 +18,11 @@
 # -- Project information -----------------------------------------------------
 
 project = 'GS Toolbox'
-copyright = '2021, George Sladkovsky'
+copyright = '2022, George Sladkovsky'
 author = 'George Sladkovsky'
 
 # The full version, including alpha/beta/rc tags
-release = '1.1'
+release = '1.1.5'
 
 
 # -- General configuration ---------------------------------------------------

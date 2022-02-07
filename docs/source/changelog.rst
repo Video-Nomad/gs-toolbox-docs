@@ -4,6 +4,20 @@
 Changelog
 #########
 
+Version 1.1.5
+^^^^^^^^^^^^^
+
+
+**Improvements:**
+
+
+- Duplicate Faces and Extract functions will no respect Isolate Select when used.
+- Added a warning to the Array functions when it detects that the scene units are different from "cm". This is due to limitation of MASH system. MASH does not support anything other than centimeters and (since Array functionality heavily relies on MASH) neither Array function in Toolbox.
+
+**Bug Fixes:**
+
+- Fixed a critical bug with Fill function that caused incorrect positioning of the vertecies when scene units were different from "cm". Every scene unit is now supported by the Fill function.
+
 Version 1.1.4
 ^^^^^^^^^^^^^
 
