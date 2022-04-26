@@ -4,6 +4,22 @@
 Changelog
 #########
 
+Version 1.1.6
+^^^^^^^^^^^^^
+
+**New Features:**
+
+- Maya 2023 Support
+- Selection Sets Boolean Logic. Middle Mouse Drag or Click with Modifiers:
+
+  - **Shift + Ctrl** to add selection to the layer or (combine layers if dragged)
+  - **Shift + Alt** to get a difference between the layer and the selection (or the difference between dragged and target layer)
+  - **Ctrl + Alt** to get an intersection between the selection and the layer (or the intersection between the dragged and target layer)
+  
+**Improvements**
+
+- Major improvement for Duplicate and Extract functions. They will now separate only selected faces and other detached shells will stay combined with the original object.
+
 Version 1.1.5
 ^^^^^^^^^^^^^
 
