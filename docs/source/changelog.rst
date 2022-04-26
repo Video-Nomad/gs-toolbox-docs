@@ -16,9 +16,13 @@ Version 1.1.6
   - **Shift + Alt** to get a difference between the layer and the selection (or the difference between dragged and target layer)
   - **Ctrl + Alt** to get an intersection between the selection and the layer (or the intersection between the dragged and target layer)
   
-**Improvements**
+**Improvements:**
 
 - Major improvement for Duplicate and Extract functions. They will now separate only selected faces and other detached shells will stay combined with the original object.
+
+**Deprecation:**
+
+- Maya 2017 Support is Dropped. It might still work just fine but there will be no bug fixes for this version.
 
 Version 1.1.5
 ^^^^^^^^^^^^^
