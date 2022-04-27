@@ -19,6 +19,11 @@ Version 1.1.6
 **Improvements:**
 
 - Major improvement for Duplicate and Extract functions. They will now separate only selected faces and other detached shells will stay combined with the original object.
+- Added Hotkeys:
+
+  - Create Crease Sets
+  - Creases to Bevels
+  - Bake Crease Sets
 
 **Deprecation:**
 
