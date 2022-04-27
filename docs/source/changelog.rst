@@ -25,6 +25,10 @@ Version 1.1.6
   - Creases to Bevels
   - Bake Crease Sets
 
+**Bug Fixes:**
+
+- Fixed a bug with "Repeat Last" hotkey not working for some functions.
+
 **Deprecation:**
 
 - Maya 2017 Support is Dropped. It might still work just fine but there will be no bug fixes for this version.
