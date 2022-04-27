@@ -42,6 +42,25 @@ In order to **add objects or components** to the selection set, all you need to 
 
 |
 
+Quick Actions and Boolean Logic (Drag and Drop)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: images/selection_set_mod_drag_drop.gif
+	:class: with-shadow align-right
+	:width: 250px
+	:align: center
+
+You can use modifier key combinations to add, subtract or intersect either two selection sets or selection set and a viewport selection.
+
+Simply select something in a viewport and hold these keys (or drag and drop one selection set onto another):
+
+- **Shift + Ctrl** - will add selection to the target non-empty selection set or it will merge two selection sets if dragging and dropping one onto another using Middle Mouse Button.
+
+- **Shift + Alt** - will subtract selection from the target non-empty selection set or it will subtract two selection sets if dragging and dropping one onto another using Middle Mouse Button.
+
+- **Ctrl + Alt** - will intersect selection with the target non-empty selection set or it will intersect two selection sets if dragging and dropping one onto another using Middle Mouse Button.
+
+
 Color coordination
 ^^^^^^^^^^^^^^^^^^
 .. figure:: images/selection_groups.png
