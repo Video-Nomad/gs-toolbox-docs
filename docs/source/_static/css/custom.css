@@ -34,6 +34,13 @@ img.align-center {
     }
 }
 
+@media only screen and (min-width: 769px) {
+    .rst-versions {
+        /* Required to center the page on wide displays */
+        left: inherit;
+    }
+}
+
 .wy-menu-vertical header,
 .wy-menu-vertical p.caption {
     /* Improves the appearance of uppercase text */
