@@ -41,7 +41,7 @@ Installation Steps
 
 #. **Run the code** (Press Enter for the Command Field or press on triangle for script editor). Installation is complete.
 
-.. figure:: https://i.imgur.com/fUdzdWO.png
+.. figure:: images/script_editor_paste.png
 	:alt: Script Editor Example
 	:class: with-shadow
 	:width: 300px

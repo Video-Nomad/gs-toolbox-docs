@@ -12,13 +12,19 @@
 #
 # import os
 # import sys
+import datetime
 # sys.path.insert(0, os.path.abspath('.'))
-
 
 # -- Project information -----------------------------------------------------
 
+try:
+    YEAR = datetime.datetime.now().year
+except BaseException:
+    YEAR = 2023
+
+
 project = 'GS Toolbox'
-copyright = '2022, George Sladkovsky'
+copyright = '%s, George Sladkovsky' % YEAR
 author = 'George Sladkovsky'
 
 # The full version, including alpha/beta/rc tags
@@ -31,6 +37,7 @@ release = '1.1.6'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinx_copybutton'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
