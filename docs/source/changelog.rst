@@ -4,6 +4,23 @@
 Changelog
 #########
 
+Version 1.1.7
+^^^^^^^^^^^^^
+
+**New Features:**
+
+- Maya 2024 Support
+
+**Improvements**:
+
+- Added new StandardSurface material in Maya 2024 as default
+
+**Bug Fixes:**
+
+- Fixed Array having the wrong arrangement on some Maya versions
+- Fixed hotkeys for Selection Constraint and Transform Constraint
+- Fixed "Save Preset" swatch generation bug in Quick Materials
+
 Version 1.1.6
 ^^^^^^^^^^^^^
 
