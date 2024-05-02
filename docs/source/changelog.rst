@@ -4,6 +4,31 @@
 Changelog
 #########
 
+Version 1.1.8
+^^^^^^^^^^^^^
+
+**New Features:**
+
+- Maya 2025 Support (please report bugs).
+
+IMPROVEMENTS:
+
+- Old versions are now available as a download (v1.1+).
+- Snap to Poly algorithm was improved.
+
+  - Snapping multiple selected objects to multiple faces will now work as expected.
+  - If the number of selected faces is bigger than the number of selected objects it will now snap everything in a repeating pattern, so all the faces are populated.
+
+- General code improvement for maintainability.
+- Hotkeys system was changed internally for better maintainability. You might need to check your hotkeys for GS Toolbox.
+
+**Bug Fixes:**
+
+- Fixed a rare bug with custom materials that prevented them from being created.
+- Fixed a Snap to Poly bug that prevented it to be functional if only one poly is selected.
+- Extract Snapshot bug was fixed.
+- Several small bug fixes with regex and other boring stuff.
+
 Version 1.1.7
 ^^^^^^^^^^^^^
 
