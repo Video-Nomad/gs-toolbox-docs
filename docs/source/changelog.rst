@@ -4,6 +4,25 @@
 Changelog
 #########
 
+
+Version 1.1.9
+^^^^^^^^^^^^^
+
+**Bug Fixes:**
+
+- Fixed multiple hotkeys:
+
+  - UnCrease Plus
+  - Selection: By Angle
+  - Selection: Border
+  - Selection: NGons
+  - Selection: Hard Edges
+- Other small fixes.
+
+**Technical:**
+
+- Decoupled the plug-in from the “version/scripts” folder for easier use of modules in studio environment. The only “hardcoded” path now is the “log.log” file path. It will be created in the same folder as before “version/scripts/gs_toolbox/log.log” for each user.
+
 Version 1.1.8
 ^^^^^^^^^^^^^
 
@@ -11,7 +30,7 @@ Version 1.1.8
 
 - Maya 2025 Support (please report bugs).
 
-IMPROVEMENTS:
+**Improvements:**
 
 - Old versions are now available as a download (v1.1+).
 - Snap to Poly algorithm was improved.
