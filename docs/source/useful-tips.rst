@@ -5,7 +5,7 @@ Useful tips
 ###########
 
 Automatic startup of the plug-in
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+================================
 
 In order to automatically start the plug-in during Maya startup you need to modify (or add) **userSetup.py** file in your scripts folder.
 
@@ -13,9 +13,9 @@ In order to automatically start the plug-in during Maya startup you need to modi
 
 
 .. figure:: images/userSetupFile.png
-	:class: with-shadow align-right
-	:width: 300px
-	:align: center
+    :class: align-right
+    :width: 300px
+    :align: center
 
 - You need to create **userSetup.py** file in your Maya scripts folder.
   
@@ -26,9 +26,9 @@ In order to automatically start the plug-in during Maya startup you need to modi
 - Just create an empty text file called **userSetup.txt**, paste the code there and rename the file to **userSetup.py**.
 
 .. figure:: images/userSetupFileStructure.png
-	:class: with-shadow align-right
-	:width: 300px
-	:align: center
+    :class: align-right
+    :width: 300px
+    :align: center
 
 - If you already have this file in the folder, open it with any text editor and paste the code at the bottom of the file.
 

@@ -5,21 +5,21 @@ Creasing and Beveling
 #####################
 
 .. figure:: images/creasing_and_beveling_menu.png
-	:class: with-shadow align-right
-	:width: 250px
-	:align: center
+    :class: align-right
+    :width: 250px
+    :align: center
 
 Intro
-^^^^^
+=====
 
 Creasing and Beveling is a powerful and non-destructive way to create SubD geometry. It works by applying a creasing value (creasing parameter) to the edges and this parameter controls at which subdivision this edge will start to smooth.
 
 |
 
 .. figure:: images/creasing_subd_levels_example.gif
-	:class: with-shadow align-right
-	:width: 250px
-	:align: center
+    :class: align-right
+    :width: 250px
+    :align: center
 
 For example: If you apply a creasing value of 2 to the edge, then this edge will not be smoothed until you reach a subdivision level of 3 or more. See how the edge is sharp up until the level 3?
 
@@ -32,7 +32,7 @@ In the Creasing Menu you have six buttons, three sliders and three additional to
 You can crease individual edges, crease by angle, bevel by angle and un-crease selected or all edges.
 
 Creasing Individual Edges
-^^^^^^^^^^^^^^^^^^^^^^^^^
+=========================
 
 In order to crease individual edges all you need to do is to select the edges and click on "Crease" button. Crease button will look at the Crs slider and set the crease level that is selected there.
 
@@ -41,12 +41,12 @@ Crease button also supports face selection. In face selection there are two mode
 Un-Crease button will remove creases on the selected edges. Face selection follows the same pattern as the Crease button.
 
 Interactive Edge Creasing
-^^^^^^^^^^^^^^^^^^^^^^^^^
+=========================
 
 .. figure:: images/interactive_crease_slider.gif
-	:class: with-shadow align-right
-	:width: 300px
-	:align: center
+    :class: align-right
+    :width: 300px
+    :align: center
 
 You can enable interactive creasing mode by clicking on Crs button near the Crs slider. 
 
@@ -59,12 +59,12 @@ Face selection follows the same rules as the Crease button.
 Clicking on SubD button will change the slider to an interactive SubD slider. Dragging this slider will apply different SubD levels to the mesh.
 
 Interactive Edge Highlight
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+==========================
 
 .. figure:: images/angle_highlight_example.gif
-	:class: with-shadow align-right
-	:width: 300px
-	:align: center
+    :class: align-right
+    :width: 300px
+    :align: center
 
 Interactive edge highlight will highlight the edges based on the Angle slider angle tolerance.
 
@@ -76,9 +76,9 @@ In this mode, dragging the slider will interactively filter the edges based on t
 .. note:: Angle between faces has a range from 0 to 180, where 0 is basically all edges highlighted and 180 is no edges being selected. The sharper the angle between faces the more angle tolerance is needed to deselect this edge. Border edges will always be highlighted due to limitation of the Angle Selection system of Maya.
 
 .. figure:: images/angle_tolerance_slider_example.gif
-	:class: with-shadow align-right
-	:width: 300px
-	:align: center
+    :class: align-right
+    :width: 300px
+    :align: center
 
 Note how some of the edges are now different color (this color can be changed in the Options menu). Those colored edges are the edges that will be affected by the next command you choose.
 
@@ -90,12 +90,12 @@ Selecting "Select Edges" will finish the interactive mode and select the edges y
 
 
 Creasing and Beveling by Angle
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+==============================
 
 .. figure:: images/applying_crease_plus.gif
-	:class: with-shadow align-right
-	:width: 300px
-	:align: center
+    :class: align-right
+    :width: 300px
+    :align: center
 
 
 Creasing and Beveling by Angle can be performed in the same way you've Selected Edges in the Interactive Edge Highlight mode. Select objects, click on Angle button, drag the slider and finish the selection with Crease+ or Bevel+.
@@ -110,26 +110,26 @@ Un-Crease+ button will remove all the creases on the selected mesh.
 
 
 Convert Creases to Bevels
-^^^^^^^^^^^^^^^^^^^^^^^^^
+=========================
 
 .. figure:: images/crease_plus_marking_menu.png
-	:class: with-shadow align-right
-	:width: 300px
-	:align: center
+    :class: align-right
+    :width: 300px
+    :align: center
 
 You can easily convert already creased edges to bevels by using Convert Creases to Bevels command under the Crease+ marking menu (Hold RMB on Crease+ button).
 
 Selecting Convert Creases to Bevels will look at all the creased edges on the object and change them to bevels. Crease value on the edge will have no effect on the final bevel as Maya does not support variable bevels on one Bevel node.
 
 Create Crease Sets and Bake them
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+================================
 
 You can always edit and select already creased edges by simply creating a selection set from them.
 
 .. figure:: images/crease_sets_in_the_outliner.png
-	:class: with-shadow align-right
-	:width: 300px
-	:align: center
+    :class: align-right
+    :width: 300px
+    :align: center
 
 This can be done by accessing Crease+ marking menu (Hold RMB on Crease+ button) and selecting "Create Crease Sets from Mesh". This will create a selection set based on the creases. Different crease values will result in a different selection set, so you can easily distinguish between them.
 
@@ -138,7 +138,7 @@ Crease sets will have format "Mesh Name + _creaseSet#"
 To select edges from any of the sets, just right click on the set and click "Select Set Members". You can now edit selected edges with Crease button and different Crs value.
 
 Bevel+ Marking Menu Options
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+===========================
 
 You can access Bevel+ marking menu by Holding RMB on Bevel+ button. Here you will find Chamfer toggle and Default Segments selection.
 
@@ -147,7 +147,7 @@ Chamfer toggle will enable and disable rounding of the edges you are beveling.
 Default Segments will change the amount of segments that your initial bevel will have (can be always changed during the beveling process).
 
 SubD Button
-^^^^^^^^^^^
+===========
 
 SubD Level button shows you the current Subdivision level of the selected mesh and clicking on this button will apply the SubD level set on the SubD slider.
 

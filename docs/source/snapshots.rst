@@ -6,11 +6,12 @@ Snapshots
 
 
 Intro
-^^^^^
+=====
+
 .. figure:: images/construction_history_example.png
-	:class: with-shadow align-right
-	:width: 200px
-	:align: center
+    :class: align-right
+    :width: 200px
+    :align: center
 
 In Maya each edit of the geometry is stored within a node that is added to so called Construction History that you see as a column of entries in the Channel Box or as tabs in Attribute Editor. You can even edit some of the settings on those nodes procedurally, with caution.
 
@@ -23,12 +24,12 @@ Although this works, sometimes you want to store the previous state of the objec
 This is where "Snapshot" comes into play.
 
 Snapshot
-^^^^^^^^
+========
 
 .. figure:: images/snapshot_buttons.png
-	:class: with-shadow align-right
-	:width: 200px
-	:align: center
+    :class: align-right
+    :width: 200px
+    :align: center
 
 Snapshot button will store a duplicate of an object with the exact state of Construction History it has into a separate group with the name "(object_name)_sn". You can store multiple snapshots this way, with different history for each snapshot.
 
@@ -41,7 +42,7 @@ The snapshot group and the objects in it will follow the original object when yo
 .. note:: Be aware that by scaling the original object non-uniformly, you will also scale all the snapshots it has.
 
 Extract Snapshot
-^^^^^^^^^^^^^^^^
+================
 
 Extract Snapshot button will extract any selected snapshot from the snapshot group and clean it up for further use. 
 

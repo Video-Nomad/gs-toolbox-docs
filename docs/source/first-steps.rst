@@ -5,23 +5,25 @@ First Steps
 ###########
 
 Intro
-^^^^^
-The main function of GS Toolbox is to speed up the hard surface workflows in Maya. Main functions that you are going to use are:
+=====
+
+The main function of GS Toolbox is to speed up hard surface workflows in Maya. Main functions that you are going to use are:
 
 - Select, Crease and Bevel by Angle
 - Mirroring and Instancing
 - Booleans
+- Arrays
 - Utility functions such as Fill, Straighten, Combine etc.
 
 In this chapter we are going to briefly discuss all of those functions. For more in-depth and advanced explanations please refer to the appropriate chapter in table of contents on the left.
 
 Quick Intro to Creasing Workflow
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+================================
 
 .. figure:: images/creasing_subd_levels_example.gif
-	:class: with-shadow float-right
-	:width: 250px
-	:align: center
+    :class: float-right
+    :width: 250px
+    :align: center
 
 Creasing is a powerful and non-destructive workflow in Maya. Creasing an edge applies a crease parameter to that edge and whenever you smooth the mesh, this edge will remain sharp based on that parameter. For example, crease level of 2 will remain sharp on subdivisions 1 and 2, but when you go to subdivision 3 you will notice that creased edges is now smoothed uniformly.
 
@@ -32,21 +34,21 @@ GS Toolbox provides with convenient functions to Select, Crease+ or even Bevel+ 
 You can also crease individual edges by a fixed amount just by clicking on the Crease button.
 
 Interactive Edge Selection and Crease
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+=====================================
 
 .. figure:: images/angle_highlight_example.gif
-	:class: with-shadow float-right
-	:width: 250px
-	:align: center
+    :class: float-right
+    :width: 250px
+    :align: center
 
 To start interactive selection, select an object(s), click on the small "Angle" button near the slider that controls the angle parameter and start dragging the slider. You will notice how the highlighted edges change based on the angle you select.
 
 |
 
 .. figure:: images/angle_selection_highlighted_buttons.png
-	:class: with-shadow float-right
-	:width: 250px
-	:align: center
+    :class: float-right
+    :width: 250px
+    :align: center
 
 Notice how three buttons are now highlighted - Select Edges, Crease+ and Bevel+. This indicates that you can now finish your angle selection by either simply selecting the edges that were highlighted or by applying Crease or Bevel to those edges.
 
@@ -54,9 +56,9 @@ Notice how three buttons are now highlighted - Select Edges, Crease+ and Bevel+.
 |
 
 .. figure:: images/angle_and_crease_sliders.png
-	:class: with-shadow float-right
-	:width: 250px
-	:align: center
+    :class: float-right
+    :width: 250px
+    :align: center
 
 Crease+ function will be applied based on the parameters of SubD and Crs sliders, where SubD is the subdivision level of the mesh and Crs is the crease level on the creased edges.
 
@@ -65,14 +67,14 @@ Crease+ function will be applied based on the parameters of SubD and Crs sliders
 .. note:: You don't have to use interactive selection every time and even without it pressing any of the aforementioned buttons will result in the same selection or creasing.
 
 Quick Mirroring and Instancing
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+==============================
 
 Mirroring is an essential part of any hard surface model. Even if the final model is not completely symmetrical, mirroring is still used to quickly add geometry on the other side of the model and edit it accordingly.
 
 .. figure:: images/mirror_radio_buttons.gif
-	:class: with-shadow float-right
-	:width: 250px
-	:align: center
+    :class: float-right
+    :width: 250px
+    :align: center
 
 In GS Toolbox you will find all the mirroring tools you might need in one convenient menu. This menu is interactive and changes based on the selected mirror, flip, instance or delete parameters. 
 
@@ -90,16 +92,16 @@ If the **Cut Geo** parameter is selected it will cut the geometry based on the m
 
 
 Quick Booleans
-^^^^^^^^^^^^^^
+==============
 
 Booleans is a powerful concepting and modeling tool that is severely underrepresented in Maya. You can't edit already applied booleans, edit original geometry and even simply moving the cutter can be annoying. 
 
 With Quick Booleans GS Toolbox aims to fix those problems.
 
 .. figure:: images/booleans_menu.png
-	:class: with-shadow float-right
-	:width: 250px
-	:align: center
+    :class: float-right
+    :width: 250px
+    :align: center
 
 With **Quick Booleans** you can:
 
@@ -111,41 +113,55 @@ With **Quick Booleans** you can:
 - **Apply booleans** with one button
 
 .. figure:: images/booleans_example.gif
-	:class: with-shadow
-	:width: 350px
-	:align: center
-    
-.. figure:: images/boolean_cutter_editing.gif
-	:class: with-shadow
-	:width: 350px
-	:align: center
+    :width: 350px
+    :align: center
 
+.. figure:: images/boolean_cutter_editing.gif
+    :width: 350px
+    :align: center
+
+|
+
+Arrays
+======
+
+.. figure:: images/radial_deformed_array_editing.gif
+    :class: align-right
+    :width: 250px
+    :align: center
+
+GS Toolbox can quickly generate different types of arrays that will help with the modeling of complex shapes like pipes, chains, wheels etc.
+
+Arrays are dynamic and the edits to the original object will update the array automatically.
+
+Linear arrays can be generated on the default curve on any number of selected target curves.
+
+All the arrays have separate controls accessible from the Array Control Window.
+
+More on arrays here: :ref:`Arrays <arrays_page>`
 
 Utility Functions
-^^^^^^^^^^^^^^^^^
+=================
 
 There are a bunch of utility functions available.
 
 **Straighten** will straighten any selected edges and edge groups (not connected edges):
 
 .. figure:: images/straighten_edges_example.gif
-	:class: with-shadow
-	:width: 350px
-	:align: center
+    :width: 350px
+    :align: center
 
 **Interpolate** will interpolate selected edge groups between first, middle and last vert:
 
 .. figure:: images/interpolate_edges_example.gif
-	:class: with-shadow
-	:width: 350px
-	:align: center
+    :width: 350px
+    :align: center
 
 **Smooth** will smooth the selected edges based on the smoothing multiplier:
 
 .. figure:: images/smooth_edges_example.gif
-	:class: with-shadow
-	:width: 350px
-	:align: center
+    :width: 350px
+    :align: center
 
 **Combine, Separate, Duplicate and Extract** are all similar to Maya native functions but they will not clutter the outliner with an unnecessary groups and will not rename objects.
 

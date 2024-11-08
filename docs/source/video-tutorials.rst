@@ -5,7 +5,7 @@ Video Tutorials
 ###############
 
 Version 1.1 Full Tutorial
-^^^^^^^^^^^^^^^^^^^^^^^^^
+=========================
 
 .. raw:: html
 
@@ -14,7 +14,7 @@ Version 1.1 Full Tutorial
     </div>
 
 Version 1.0 Features Overview
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+=============================
 
 .. raw:: html
 

@@ -5,7 +5,7 @@ GS Toolbox for Autodesk Maya Documentation
 **For Maya 2018-2025**
 
 Links
-^^^^^
+=====
 
 - `Online Store <https://sladkovsky3d.artstation.com/store>`_
 - `Discord Support Server <https://discord.gg/KyPCW6F>`_
@@ -14,11 +14,11 @@ Links
 - `ArtStation <https://www.artstation.com/sladkovsky3d>`_
 
 Introduction
-^^^^^^^^^^^^
+============
 
 .. figure:: images/main_menu.png
     :alt: Right floating image
-    :class: with-shadow float-right
+    :class: float-right
     :width: 150px
 
 **GS Toolbox** is a powerful hard-surface and general purpose modeling plug-in for Maya that adds a lot of useful new features, as well as expands and simplifies already existing Maya functions.
@@ -36,7 +36,7 @@ Another powerful feature is **quick Mirroring and Instancing with Mirror**. Maya
 **Filling the opening** in geometry with quads is another fast and useful feature. Sometimes it is very hard and time-consuming to bridge the opening in the geometry and cut it in even quads. With "Fill" function you can select only one vert from the border and click one button for instant even-quadded fill. Works on flat, curved and other irregular surfaces.
 
 Main Features of GS Toolbox
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+===========================
 
 - **Powerful and interactive menu** with high-DPI support.
 - Quick access to **Transform and Selection constraints**.
@@ -67,12 +67,12 @@ Main Features of GS Toolbox
 - **Duplicate and Extract** will duplicate or extract selected faces in a clean way, without unnecessary groups in the outliner. It also keeps the history of the original object intact.
 
 - Powerful **procedural Booleans** with the ability to edit already applied booleans, delete boolean component objects and quickly apply booleans.
-- **Live Plane** will place a Live Plane on the selected face. You can switch to the **custom camera** that follows this Live Plane and also align any object to that plane, using **Align**. Res. slider will change the subdivision of this live plane.
+- **Live Plane** will place a Live Plane on the selected face. You can switch to the **custom camera** that follows this Live Plane and also align any object to that plane, using **Align**. Resolution slider will change the subdivision of this live plane.
 - **12 Quick Material Slots** are powerful and easy to use material management tool that can store and load presets and apply Global Materials.
 
 
 Supported Platforms
-^^^^^^^^^^^^^^^^^^^
+===================
 
 **Maya 2018-2025 for Windows** -> Fully Tested and Supported.
 
@@ -88,7 +88,7 @@ Supported Platforms
     :maxdepth: 2
     :caption: Table of Contents:
 
-    Home <index>
+    Home <self>
     Changelog <changelog>
     Video Tutorials <video-tutorials>
     Installation <installation>
@@ -99,7 +99,7 @@ Supported Platforms
     Mirroring and Instancing <mirroring-and-instancing>
     Linear and Radial Arrays <linear-and-radial-arrays>
     Instance and Instance+ <instance-and-instance-plus>
-    Store Edits and Delete Node <store-edits-and-delete-node>
+    Store Edits and Undo Edit <store-edits-and-undo-edit>
     Snapshots <snapshots>
     Snap to Poly <snap-to-poly>
     Straighten, Interpolate and Smooth <straighten-interpolate-smooth>
