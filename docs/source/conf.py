@@ -20,7 +20,7 @@ import datetime
 try:
     YEAR = datetime.datetime.now().year
 except BaseException:
-    YEAR = 2024  # pyright: ignore[reportConstantRedefinition]
+    YEAR = 2025  # pyright: ignore[reportConstantRedefinition]
 
 
 project = "GS Toolbox"

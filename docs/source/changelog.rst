@@ -5,6 +5,20 @@ Changelog
 #########
 
 
+Version 1.2.1
+=============
+
+**New Features:**
+
+- Maya 2026 support. Please report bugs.
+- Material swatches can now select polys or entire objects (Ctrl+Click or Shift+Ctrl+Click).
+
+**Improvements:**
+
+- Updated tooltips for material swatches with click functions.
+- Automatic initialization in case of Maya version upgrade.
+- Updated the pop-out input dialogs for new maya versions.
+
 Version 1.2
 =============
 
