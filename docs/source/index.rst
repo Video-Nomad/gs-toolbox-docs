@@ -2,7 +2,7 @@
 GS Toolbox for Autodesk Maya Documentation
 ##########################################
 
-**For Maya 2018-2025**
+**For Maya 2018-2026**
 
 Links
 =====
@@ -74,9 +74,9 @@ Main Features of GS Toolbox
 Supported Platforms
 ===================
 
-**Maya 2018-2025 for Windows** -> Fully Tested and Supported.
+**Maya 2018-2026 for Windows** -> Fully Tested and Supported.
 
-**Maya 2018-2025 for Mac** -> In Beta.
+**Maya 2018-2026 for Mac** -> In Beta.
 
 **Linux** -> Not Tested and Not Supported.
 
