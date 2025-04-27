@@ -84,6 +84,20 @@ Supported Platforms
 
 **Maya 2017** -> No longer supported since **v1.1.6**
 
+Recommended Maya Versions
+=========================
+
+In general, it's better to use the *latest* patch versions of Maya.
+
+- 2018.6
+- 2019.3.1
+- 2020.4
+- 2022.3
+- 2023.3
+- 2024.2
+- 2025.3
+- 2026
+
 .. toctree::
     :maxdepth: 2
     :caption: Table of Contents:
