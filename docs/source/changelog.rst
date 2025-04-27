@@ -5,6 +5,13 @@ Changelog
 #########
 
 
+Version 1.2.2
+=============
+
+**Bug Fixes:**
+
+- Fixed a window popup that appeared when using Array Control Window.
+
 Version 1.2.1
 =============
 
