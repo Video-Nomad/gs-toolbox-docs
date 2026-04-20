@@ -5,6 +5,13 @@ Changelog
 #########
 
 
+Version 1.2.3
+=============
+
+**New Features:**
+
+- Maya 2027 Support
+
 Version 1.2.2
 =============
 

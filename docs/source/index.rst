@@ -2,7 +2,7 @@
 GS Toolbox for Autodesk Maya Documentation
 ##########################################
 
-**For Maya 2018-2026**
+**For Maya 2018-2027**
 
 Links
 =====
@@ -74,9 +74,9 @@ Main Features of GS Toolbox
 Supported Platforms
 ===================
 
-**Maya 2018-2026 for Windows** -> Fully Tested and Supported.
+**Maya 2018-2027 for Windows** -> Fully Tested and Supported.
 
-**Maya 2018-2026 for Mac** -> In Beta.
+**Maya 2018-2027 for Mac** -> In Beta.
 
 **Linux** -> Not Tested and Not Supported.
 
@@ -97,6 +97,7 @@ In general, it's better to use the *latest* patch versions of Maya.
 - 2024.2
 - 2025.3
 - 2026
+- 2027
 
 .. toctree::
     :maxdepth: 2
